@@ -1,0 +1,2 @@
+Per ogni "categoria" di pagine solo la prima voce di ogni menu è stata scritta, in quanto sarebbero tutte molto simili in ogni caso e per dimostrare la modularità dei colori coi file *categoria*Colors.css
+Mi scuso per i .png non tutti trasparenti, ma non sono riuscito a finire di tagliarli per la sovrapposizione con altri esami e progetti da consegnare

@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "khumb sans light";
+	src: url("../../fonts/KumbhSans-Light.ttf");
+}
+
+/* Tutta la barra */
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+/* Singole entrate sui menu */
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+/* Bottoni nella barra */
+.menu button {
+	width: 100%;
+	height: 50px;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Blocco di link da selezionare */
+.menu div {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+/* Singolo link */
+.menu a {
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 3px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	nav {
+		flex-direction: column;
+	}
+
+	.menu button {
+		margin-top: 3px;
+	}
+}

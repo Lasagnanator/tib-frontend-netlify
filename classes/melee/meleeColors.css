@@ -1,0 +1,19 @@
+h1, h2, h3 {
+	color: rgb(224, 34, 0);
+}
+
+.menu button, .menu a {
+	color: rgb(224, 34, 0);
+	background-color: rgba(40, 40, 40, 0.8);
+}
+
+.menu button.active {
+	background-color: rgb(224, 34, 0);
+	color: rgb(30, 30, 30);
+}
+
+.menu a.active {
+	background-color: rgb(224, 34, 0);
+	color: rgb(30, 30, 30);
+	font-weight: bold;
+}

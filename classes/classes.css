@@ -1,0 +1,170 @@
+@font-face {
+	font-family: "Final Fantasy";
+	src: url("../fonts/OPTIEngeEtienne.otf");
+}
+
+@font-face {
+	font-family: "Khumb Sans Light";
+	src: url("../fonts/KumbhSans-Light.ttf");
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Khumb Sans Light", sans-serif;
+    color: white;
+}
+
+body {
+	padding: 0px 15px;
+	background-image: url("../pics/Flow-FFXIV.png");
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer {
+	padding: 30px;
+	color: darkgrey;
+	text-align: center;
+	font-size: 10px;
+}
+
+/* Titolo a inizio pagina */
+h1 {
+	float: right;
+	width: 75%;
+	background-image: linear-gradient(to left, rgba(40, 40, 40, 1), rgba(40, 40, 40, 0));
+	text-align: right;
+	font-size: 80px;
+	font-weight: normal;
+	font-family: "Final Fantasy", "Khumb Sans Light", serif;
+}
+
+/* Titoli delle sezioni */
+h2 {
+	background-image: linear-gradient(to right, rgba(40, 40, 40, 1), rgba(40, 40, 40, 0));
+	width: 75%;
+	padding: 5px;
+}
+
+/* Div con i paragrafi dell'intro */
+.desc div {
+	background-color: rgba(40, 40, 40, 0.8);
+	padding: 10px;
+}
+
+.desc div p {
+	margin: 3px 0px;
+}
+
+/* Div per organizzare le tessere con i pro e contro */
+.prosNcons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+/* Tessere con i pro e contro */
+.prosNcons div {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(40, 40, 40);
+}
+
+.prosNcons div h3 {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.prosNcons div ul {
+	padding-left: 18px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+/* Sezione con le informazioni */
+.unlock {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+/* Tessere con le informazioni */
+.unlock div {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(40, 40, 40);
+	max-width: 30%;
+}
+
+.unlock div h3 {
+	margin-top: 5px;
+}
+
+.unlock div span {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+/* Immagine con la rotazione delle skill */
+.opener {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+}
+
+/* Div per i link/immagine */
+.links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 25px 15px;
+}
+
+.links a {
+	max-width: 27%;
+}
+
+.links a img {
+	max-width: 100%;
+}
+
+/* Tasto per tornare alla home */
+.home {
+	margin: 60px 0px 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.prosNcons {
+		flex-direction: column;
+	}
+
+	.prosNcons div {
+		margin: 20px;
+	}
+	
+	.unlock {
+		flex-direction: column;
+	}
+
+	.unlock div {
+		margin: 20px;
+	}
+
+	.links {
+		flex-direction: column;
+	}
+
+	.links a {
+		max-width: 100%;
+	}
+}

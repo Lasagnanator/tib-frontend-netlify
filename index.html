@@ -1,0 +1,230 @@
+<html>
+
+<head>
+	<title>Lista classi Final Fantasy XIV</title>
+	<meta name="author" content="Andrea Divo (divo.andrea.96@gmail.com)">
+	<meta name="description" content="Lista delle classi giocabili nell'MMO Final Fantasy XIV">
+	<link rel="stylesheet" href="main.css" type="text/css">
+	<link rel="stylesheet" href="mainColors.css" type="text/css">
+	<link rel="stylesheet" href="menu.css" type="text/css">
+	<script src="scripts/jquery-3.6.0.min.js"></script>
+	<script src="scripts/index.js"></script>
+	<script src="scripts/menu.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>PLAYABLE JOBS IN FINAL FANTASY XIV</h1>
+	</header>
+
+    <nav>
+        <div class="menu">
+            <button>Tank</button>
+            <div>
+                <a href="classes/tank/DRK.html">Dark Knigh</a>
+                <a href="classes/tank/GNB.html">Gunbreaker</a>
+                <a href="classes/tank/PLD.html">Paladin</a>
+                <a href="classes/tank/WAR.html">Warrior</a>
+            </div>
+        </div>
+
+        <div class="menu">
+            <button>Healer</button>
+            <div>
+                <a href="classes/healer/AST.html">Astrologian</a>
+                <a href="classes/healer/SGE.html">Sage</a>
+                <a href="classes/healer/SCH.html">Scholar</a>
+                <a href="classes/healer/WHM.html">White Mage</a>
+            </div>
+        </div>
+
+        <div class="menu">
+            <button>Melee</button>
+            <div>
+                <a href="classes/melee/DRG.html">Dragoon</a>
+                <a href="classes/melee/MNK.html">Monk</a>
+                <a href="classes/melee/NIN.html">Ninja</a>
+                <a href="classes/melee/SAM.html">Samurai</a>
+                <a href="classes/melee/RPR.html">Reaper</a>
+            </div>
+        </div>
+
+        <div class="menu">
+            <button>Ranged</button>
+            <div>
+                <a href="classes/ranged/BRD.html">Bard</a>
+                <a href="classes/ranged/DNC.html">Dancer</a>
+                <a href="classes/ranged/MCH.html">Machinist</a>
+            </div>
+        </div>
+
+        <div class="menu">
+            <button>Caster</button>
+            <div>
+                <a href="classes/caster/BLM.html">Black Mage</a>
+				<a href="classes/caster/BLU.html">Blue Mage</a>
+                <a href="classes/caster/RDM.html">Red Mage</a>
+                <a href="classes/caster/SMN.html">Summoner</a>
+            </div>
+        </div>
+    </nav>
+
+	<section class="intro">
+		<h2>Description</h2>
+		<div>
+			<p>In the critically acclaimed MMORPG Final Fantasy XIV (usually abbreviated in FFXIV) the class system is
+				fundamentally different from the other games in the genre: instead of forcing the choice of only one
+				role for each character the game gives the possibility to the player to change it on the fly, letting
+				the player max the level on every playable class available at the moment. This type of system doesn't
+				force the playerbase to replay the same content again and again just to enjoy the endgame with a
+				different job.</p>
+			<p>In this site I will briefly explain the main features of each playable class, while providing some useful
+				data and resources that might help the users to choose which job to add to their arsenal.</p>
+		</div>
+	</section>
+
+	<section class="classSelection">
+		<h2>List of playable jobs
+			<img src="pics/Main_Scenario_Quest_icon.png" onclick="hideCards()">
+		</h2>
+		<div id="cards">
+			<a href="classes/healer/AST.html" class="mainIcon">
+				<img src="pics/classesPics/awAstrologian.png" alt="Astrologian">
+				<span>Astrologian</span>
+			</a>
+
+			<a href="classes/ranged/BRD.html" class="mainIcon">
+				<img src="pics/classesPics/awBard.png" alt="Bard">
+				<span>Bard</span>
+			</a>
+
+			<a href="classes/caster/BLM.html" class="mainIcon">
+				<img src="pics/classesPics/awBlackMage.png" alt="Black Mage">
+				<span>Black Mage</span>
+			</a>
+
+			<a href="classes/caster/BLU.html" class="mainIcon">
+				<img src="pics/classesPics/awBlueMage.png" alt="Blue Mage">
+				<span>Blue Mage</span>
+			</a>
+
+			<a href="classes/ranged/DNC.html" class="mainIcon">
+				<img src="pics/classesPics/awDancerOG.png" alt="Dancer">
+				<span>Dancer</span>
+			</a>
+
+			<a href="classes/tank/DRK.html" class="mainIcon">
+				<img src="pics/classesPics/awDarkKnight.png" alt="Dark Knight">
+				<span>Dark Knight</span>
+			</a>
+
+			<a href="classes/melee/DRG.html" class="mainIcon">
+				<img src="pics/classesPics/awDragoon.png" alt="Dragoon">
+				<span>Dragoon</span>
+			</a>
+
+			<a href="classes/tank/GNB.html" class="mainIcon">
+				<img src="pics/classesPics/awGunbreakerOG.png" alt="Gunbreaker">
+				<span>Gunbreaker</span>
+			</a>
+
+			<a href="classes/ranged/MCH.html" class="mainIcon">
+				<img src="pics/classesPics/awMachinist.png" alt="Machinist">
+				<span>Machinist</span>
+			</a>
+
+			<a href="classes/melee/MNK.html" class="mainIcon">
+				<img src="pics/classesPics/awMonk.png" alt="Monk">
+				<span>Monk</span>
+			</a>
+
+			<a href="classes/melee/NIN.html" class="mainIcon">
+				<img src="pics/classesPics/awNinja.png" alt="Ninja">
+				<span>Ninja</span>
+			</a>
+
+			<a href="classes/tank/PLD.html" class="mainIcon">
+				<img src="pics/classesPics/awPaladin.png" alt="Paladin">
+				<span>Paladin</span>
+			</a>
+
+			<a href="classes/melee/RPR.html" class="mainIcon">
+				<img src="pics/classesPics/awReaper.png" alt="Reaper">
+				<span>Reaper</span>
+			</a>
+
+			<a href="classes/caster/RDM.html" class=mainIcon>
+				<img src="pics/classesPics/awRedMage.png" alt="Red Mage">
+				<span>Red Mage</span>
+			</a>
+
+			<a href="classes/healer/SGE.html" class="mainIcon">
+				<img src="pics/classesPics/awSageOG.png" alt="Sage">
+				<span>Sage</span>
+			</a>
+
+			<a href="classes/melee/SAM.html" class="mainIcon">
+				<img src="pics/classesPics/awSamurai.png" alt="Samurai">
+				<span>Samurai</span>
+			</a>
+
+			<a href="classes/healer/SCH.html" class="mainIcon">
+				<img src="pics/classesPics/awScholar.png" alt="Scholar">
+				<span>Scholar</span>
+			</a>
+
+			<a href="classes/caster/SMN.html" class="mainIcon">
+				<img src="pics/classesPics/awSummoner.png" alt="Summoner">
+				<span>Summoner</span>
+			</a>
+
+			<a href="classes/tank/WAR.html" class="mainIcon">
+				<img src="pics/classesPics/awWarrior.png" alt="Warrior">
+				<span>Warrior</span>
+			</a>
+
+			<a href="classes/healer/WHM.html" class="mainIcon">
+				<img src="pics/classesPics/awWhiteMage.png" alt="White Mage">
+				<span>White Mage</span>
+			</a>
+
+		</div>
+	</section>
+
+	<section class="report">
+		<h2>Suggestions, bugs and other type of communications</h2>
+		<form>
+			<div class="info">
+				<label for="cName">Name and surname: </label>
+				<input type="text" name="Name and surname" maxlength="50" placeholder="Name and surname">
+				<label for="email">Email: </label>
+				<input type="email" name="Email" maxlength="30" placeholder="Email">
+			</div>
+
+			<div class="radio">
+				<label for="radio">Type of report: </label>
+				<input type="radio" name="Type of report" value="Suggestion">Suggestion
+				<input type="radio" name="Type of report" value="Problem">Problem
+				<input type="radio" name="Type of report" value="Other">Other
+			</div>
+
+			<div class="textarea">
+				<label for="text">Report: </label>
+				<textarea name="text" rows="7" style="width: 100%;"
+					placeholder="Type here what you want us to know!"></textarea>
+			</div>
+
+			<div class="buttons">
+				<input type="submit" name="submit" value="Submit" onclick="success()">
+				<input type="reset" name="reset" value="Reset" onclick="uSure()">
+			</div>
+		</form>
+	</section>
+
+	<footer>
+		<p>Andrea Divo, 2022, ITS Volta, progetto front end. Per qualsiasi cosa scrivere a divo.andrea.96@gmail.com</p>
+	</footer>
+
+</body>
+
+</html>
